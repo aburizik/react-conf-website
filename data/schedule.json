@@ -10,61 +10,71 @@
         "time": "10:00-10:30am",
         "title": "Keynote",
         "speakers": ["Tom Occhino", "Christopher Chedeau"],
-        "description": "Opening remarks"
+        "description": "Opening remarks",
+        "youtubeId": "KVZ-P-ZI6W4"
       },
       {
         "time": "10:30-11:00am",
         "title": "Tweak your page in real time, without leaving the comfort of your editor",
         "speakers": ["Brenton Simpson"],
-        "description": "Bringing instant-feedback dev tools into editors with JSX, JS Harmony, and Sass support for real-time changes across devices"
+        "description": "Bringing instant-feedback dev tools into editors with JSX, JS Harmony, and Sass support for real-time changes across devices",
+        "youtubeId": "yaymfLj5tjA"
       },
       {
         "time": "11:30-12:00pm",
         "title": "Unlocking the structure of your React applications with the AST",
         "speakers": ["Gurdas Nijor"],
-        "description": "Using Esprima parser and abstract syntax trees to unlock new development applications within React"
+        "description": "Using Esprima parser and abstract syntax trees to unlock new development applications within React",
+        "youtubeId": "OZGgVxFxSIs"
       },
       {
         "time": "12:00-12:30pm",
         "title": "Data fetching for React applications at Facebook",
         "speakers": ["Daniel Schafer", "Jing Chen"],
-        "description": "Simplifying data fetching approaches for complex applications using React and Flux architecture"
+        "description": "Simplifying data fetching approaches for complex applications using React and Flux architecture",
+        "youtubeId": "9sc8Pyc51uU"
       },
       {
         "time": "2:00-2:30pm",
         "title": "Communicating with channels",
         "speakers": ["James Long"],
-        "description": "Exploring goroutine-style coordination using js-csp library for complex data flow in React apps"
+        "description": "Exploring goroutine-style coordination using js-csp library for complex data flow in React apps",
+        "youtubeId": "W2DgDNQZOwo"
       },
       {
         "time": "2:30-3:00pm",
         "title": "react-router increases your productivity",
         "speakers": ["Michael Jackson"],
-        "description": "Building application screens and flows while maintaining URL synchronization"
+        "description": "Building application screens and flows while maintaining URL synchronization",
+        "youtubeId": "XZfvW1a8Xac"
       },
       {
         "time": "3:30-4:00pm",
         "title": "Full Stack Flux",
         "speakers": ["Pete Hunt"],
-        "description": "React bindings to constraint solvers for addressing CSS layout challenges"
+        "description": "React bindings to constraint solvers for addressing CSS layout challenges",
+        "youtubeId": "KtmjkCuV-EU"
       },
       {
         "time": "4:00-4:30pm",
         "title": "Making your app fast with high-performance components",
         "speakers": ["Jason Bonta"],
-        "description": "Achieving scalable performance through intentional component hierarchy and data management"
+        "description": "Achieving scalable performance through intentional component hierarchy and data management",
+        "youtubeId": "KYzlpRvWZ6c"
       },
       {
         "time": "5:00-5:30pm",
         "title": "Format data and strings in any language with FormatJS and react-intl",
         "speakers": ["Eric Ferraiuolo"],
-        "description": "Internationalizing React applications for 150+ languages in minimal file size"
+        "description": "Internationalizing React applications for 150+ languages in minimal file size",
+        "youtubeId": "Sla-DkvmIHY"
       },
       {
         "time": "5:30-6:00pm",
         "title": "Hype!",
         "speakers": ["Ryan Florence"],
-        "description": "Demonstrating unconventional and boundary-pushing React implementations"
+        "description": "Demonstrating unconventional and boundary-pushing React implementations",
+        "youtubeId": "z5e7kWSHWTg"
       }
     ],
     "2015-01-29": [
@@ -72,61 +82,71 @@
         "time": "10:00-10:30am",
         "title": "React Native",
         "speakers": ["Christopher Chedeau"],
-        "description": "React framework extending beyond web browsers"
+        "description": "React framework extending beyond web browsers",
+        "youtubeId": "7rDsRXj9-cU"
       },
       {
         "time": "10:30-11:00am",
         "title": "The complementarity of React and Web Components",
         "speakers": ["Andrew Rota"],
-        "description": "Combining React's component approach with native HTML Web Components for powerful applications"
+        "description": "Combining React's component approach with native HTML Web Components for powerful applications",
+        "youtubeId": "g0TD0efcwVg"
       },
       {
         "time": "11:30-12:00pm",
         "title": "Immutable Data and React",
         "speakers": ["Lee Byron"],
-        "description": "Using persistent immutable data structures with Immutable.js for memoization and safer state management"
+        "description": "Using persistent immutable data structures with Immutable.js for memoization and safer state management",
+        "youtubeId": "I7IdS-PbEgI"
       },
       {
         "time": "12:00-12:30pm",
         "title": "Beyond the DOM: How Netflix plans to enhance your television experience",
         "speakers": ["Jafar Husain"],
-        "description": "Adapting React for canvas-based APIs on smart TVs and game consoles without traditional DOM"
+        "description": "Adapting React for canvas-based APIs on smart TVs and game consoles without traditional DOM",
+        "youtubeId": "eNC0mRYGWgc"
       },
       {
         "time": "2:00-2:30pm",
         "title": "Scalable Data Visualization",
         "speakers": ["Zach Nation"],
-        "description": "Rendering large-scale data efficiently using React with canvas/SVG and server-side transformation"
+        "description": "Rendering large-scale data efficiently using React with canvas/SVG and server-side transformation",
+        "youtubeId": "2ii1lEkIv1s"
       },
       {
         "time": "2:30-3:00pm",
         "title": "Refracting React",
         "speakers": ["David Nolen"],
-        "description": "Om library design patterns for ClojureScript bindings and persistent data structures"
+        "description": "Om library design patterns for ClojureScript bindings and persistent data structures",
+        "youtubeId": "5hGHdETNteE"
       },
       {
         "time": "3:30-4:00pm",
         "title": "Flux Panel",
         "speakers": ["Bill Fisher"],
-        "description": "Discussion with representatives from Yahoo, Airbnb, SoundCloud, and Facebook on architectural patterns"
+        "description": "Discussion with representatives from Yahoo, Airbnb, SoundCloud, and Facebook on architectural patterns",
+        "youtubeId": "LTj4O7WJJ98"
       },
       {
         "time": "4:00-4:30pm",
         "title": "Codecademy's approach to component communication",
         "speakers": ["Bonnie Eisenman"],
-        "description": "Dynamic meta-programming adapters for flexible component interaction in learning environments"
+        "description": "Dynamic meta-programming adapters for flexible component interaction in learning environments",
+        "youtubeId": "ZM6wXoFTY3o"
       },
       {
         "time": "5:00-5:30pm",
         "title": "Static typing with Flow and TypeScript",
         "speakers": ["James Brantly"],
-        "description": "Implementing compile-time type checking in React applications using Flow and TypeScript"
+        "description": "Implementing compile-time type checking in React applications using Flow and TypeScript",
+        "youtubeId": "9PTa9-PPVAc"
       },
       {
         "time": "5:30-6:00pm",
         "title": "Q&A with the team",
         "speakers": ["Multiple Facebook engineers"],
-        "description": "Interactive session with core React team members"
+        "description": "Interactive session with core React team members",
+        "youtubeId": "EPpkboSKvPI"
       }
     ]
   }
