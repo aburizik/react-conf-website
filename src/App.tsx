@@ -4,6 +4,7 @@ import scheduleData from '../data/schedule.json'
 interface Talk {
   time: string
   title: string
+  type?: string
   speakers: string[]
   description: string
   youtubeId: string
@@ -137,6 +138,15 @@ export default function App() {
               const gapMinutes = next
                 ? parseTalkTimeRange(next.time).start - parseTalkTimeRange(talk.time).end
                 : 0
+              if (talk.type === 'event') return (
+                <li key={i}>
+                  <div className="flex items-center gap-4 px-8 py-2 bg-gray-50 border-t border-gray-100">
+                    <span className="text-xs text-gray-400 w-28 shrink-0 tabular-nums">{talk.time}</span>
+                    <span className="text-xs text-gray-400">{talk.title}</span>
+                  </div>
+                </li>
+              )
+
               return (
                 <li key={i}>
                   <button

@@ -7,6 +7,11 @@
   "schedule": {
     "2015-01-28": [
       {
+        "time": "9:00-10:00am",
+        "title": "Registration and breakfast at Facebook",
+        "type": "event"
+      },
+      {
         "time": "10:00-10:30am",
         "title": "Keynote",
         "speakers": ["Tom Occhino", "Christopher Chedeau"],
@@ -78,6 +83,11 @@
       }
     ],
     "2015-01-29": [
+      {
+        "time": "9:00-10:00am",
+        "title": "Breakfast at Facebook",
+        "type": "event"
+      },
       {
         "time": "10:00-10:30am",
         "title": "React Native",
