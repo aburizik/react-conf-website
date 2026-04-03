@@ -133,6 +133,10 @@ export default function App() {
             {talks.map((talk, i) => {
               const isSelected = selectedTalk?.title === talk.title
               const isLive = currentTalk?.title === talk.title
+              const next = talks[i + 1]
+              const gapMinutes = next
+                ? parseTalkTimeRange(next.time).start - parseTalkTimeRange(talk.time).end
+                : 0
               return (
                 <li key={i}>
                   <button
@@ -162,6 +166,16 @@ export default function App() {
                     </div>
                     <span className={`text-lg mt-0.5 transition-transform shrink-0 ${isSelected ? 'text-blue-400 rotate-90' : 'text-gray-300'}`}>›</span>
                   </button>
+                  {gapMinutes > 0 && (
+                    <div className="flex items-center gap-4 px-8 py-2 bg-gray-50 border-t border-gray-100">
+                      <span className="text-xs text-gray-400 w-28 shrink-0 tabular-nums">
+                        {gapMinutes} min
+                      </span>
+                      <span className="text-xs text-gray-400">
+                        {gapMinutes >= 60 ? 'Lunch break' : 'Break'}
+                      </span>
+                    </div>
+                  )}
                 </li>
               )
             })}
